@@ -45,16 +45,45 @@ h3{
     text-transform: uppercase;
 }
 p{
-    color: rgb(150, 148, 148);
+    color: rgb(92, 88, 88);
     margin: 15px 0px;
     text-align: justify;
 }
 .bg-img{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+    margin-bottom: 50px;
 }
 .dream-big{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right bottom;
+    margin-bottom: 50px;
+}
+.parent{
+    display: flex;
+}
+.mr{
+    margin-right: 100px;
+}
+.shadow{
+    box-shadow: 10px 10px 45px gray;
+    padding: 20px;
+    border-radius: 6px;
+    border: 6px solid;
+    border-image: linear-gradient(#f6b73c, #4d9f0c);
+    border-image-slice: 1;
+}
+.mb-trd{
+    margin-bottom: 100px;
+}
+.exp{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    margin-bottom: 100px;
+}
+.foot{
+    text-align: center;
+    margin-bottom: 30px;
 }
